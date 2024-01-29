@@ -1,0 +1,105 @@
+footer {
+  background-color: #80b192;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+footer>.main-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+footer .divider {
+  width: 0.4rem;
+  border-radius: 0.4rem;
+  background-color: white;
+  margin: 1rem;
+}
+
+.footer-title {
+  font-size: 2rem;
+  font-family: Outfit;
+  overflow-wrap: break-word;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.footer-flex {
+  display: flex;
+}
+
+.footer-links-container {
+  margin-right: 1.5rem;
+  font-family: Outfit;
+  overflow-wrap: break-word;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.footer-links-list {
+  list-style-type: disc;
+}
+
+.footer-links-list a {
+  color: white;
+  text-decoration: none;
+}
+
+footer>.copyrights {
+  color: #ffffff;
+  font-family: Outfit;
+  font-size: .8rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: #88292f;
+  padding: .8rem 1rem;
+  margin: 0;
+}
+
+footer iframe {
+  border: none;
+  border-radius: .8em;
+}
+
+footer .university-of-delhi {
+  color: #f5f5f5;
+  margin-top: .4rem;
+  font-family: Outfit;
+  font-weight: 500;
+  font-size: .8rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+footer .bhaskaracharya {
+  color: #ffffff;
+  font-family: Outfit;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin: .4rem 0;
+}
+
+footer .element-bhaskaracharya {
+  color: #ffffff;
+  font-family: Outfit;
+  font-size: .8rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: #88292f;
+  padding: .8rem 1rem;
+  width: 100%;
+  margin: 0;
+}
+
+footer .reach-us iframe {
+  border: none;
+  border-radius: .6rem;
+}
