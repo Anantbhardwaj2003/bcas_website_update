@@ -199,12 +199,12 @@ nav .search {
 
 .search span {
     font-family: outfit;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
+    font-size: .8rem;
+    line-height: .8rem;
     color: #bfbfbf;
 }
 
 .search img {
-    width: 1rem;
-    height: 1rem;
+    width: .8rem;
+    height: .8rem;
 }
