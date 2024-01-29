@@ -1,0 +1,210 @@
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header>.top-bar {
+    position: relative;
+    background-color: #88292f;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Outfit;
+    font-weight: 500;
+    line-height: 1.6rem;
+    word-wrap: break-word;
+    padding: .3rem;
+}
+
+.top-bar .quick-link {
+    position: absolute;
+    display: flex;
+    font-size: .8rem;
+    text-transform: uppercase;
+    transform: translateY(-50%);
+    right: 1rem;
+    top: 50%;
+}
+
+.top-bar-contact {
+    margin: auto;
+    display: flex;
+    font-size: .8rem;
+    justify-content: center
+}
+
+.top-bar-contact img {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.top-bar-social {
+    background: white;
+    border-radius: 5rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 .4rem;
+    height: 1.6rem;
+}
+
+.top-bar-social img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.top-bar-social a {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: .2rem;
+}
+
+.header-main {
+    background-color: #80b192;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+
+.header-main img {
+    width: 96px;
+    height: auto;
+}
+
+.logo>img {
+    width: 120px;
+    height: 120px;
+}
+
+.header-texts {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.header-texts .college-name {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+}
+
+.university-name {
+    margin-top: .4rem;
+}
+
+.header-main .collaboration-logo {
+    display: flex;
+    align-items: center;
+}
+
+.collaboration-logo img {
+    margin-left: .6rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #88292f;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0 1rem;
+    /* padding: 1.25rem; */
+}
+
+.nav-links li {
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li.divider {
+    margin: 0 1.25rem;
+    transform: rotate(25deg);
+    border: 2px rgba(102, 117, 127, 0.12) solid;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown a {
+    display: block;
+    padding: 0.5rem 1.75rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 96ms;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 0.75rem;
+    top: 100%;
+    background-color: #f9f9f9;
+    min-width: 12rem;
+    box-shadow: 0px 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 150ms;
+    font-size: 1rem;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover>a {
+    background: #e6e6e6;
+    color: orange;
+    /* border-radius: 0.25rem; */
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: orange;
+}
+
+nav .search {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.6rem;
+    border-radius: 5rem;
+    background-color: white;
+    padding: .3rem .8rem;
+    align-items: center;
+    margin-right: 3.5rem;
+}
+
+.search span {
+    font-family: outfit;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #bfbfbf;
+}
+
+.search img {
+    width: 1rem;
+    height: 1rem;
+}
