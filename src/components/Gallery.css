@@ -1,0 +1,40 @@
+ .gallery {
+}
+
+.gallery > .title {
+    color: #80b192;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: normal;
+    text-shadow: 0px 4px 4px #00000040;
+}
+
+.gallery > .achivement-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.achivement {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.achivement > img {
+    width: 360px;
+    height: 272px;
+    object-fit: cover;
+}
+
+.achivement > p {
+    color: #ffffff;
+    background-color: #88292f;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 1rem;
+}
