@@ -1,4 +1,6 @@
  .gallery {
+    max-width: 996px;
+    margin: auto;
 }
 
 .gallery > .title {
