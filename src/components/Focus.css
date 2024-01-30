@@ -1,0 +1,107 @@
+.focus {
+  height: auto;
+  width: 100%;
+  /* background-color: rgba(6, 81, 67, 0.73); */
+  padding: 2rem 0;
+}
+
+.focus > .overlay-group {
+  background-image: url(D:/tester/test/public/assets/rectangle-38.png);
+  background-size: 100% 100%;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.focus .focus-title {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-family: Outfit;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.focus .focus-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  max-width: 996px;
+}
+
+.focus-container .focus-element {
+  width: auto;
+  background-color: #88292f;
+  border-radius: 1rem;
+  flex-basis: 30%;
+}
+
+.focus-element .focus-element-title {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  margin: .75rem 0;
+  font-family: Outfit;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+.focus-element .focus-element-container {
+  background-color: #d9d9d9;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.focus-element-container .focus-element-item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: .5rem 0;
+}
+
+.focus-element-item .focus-element-item-date {
+  background: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.focus-element-item-date .focus-element-item-date-month {
+  text-align: center;
+  color: black;
+  font-size: 0.5rem;
+  font-family: Outfit;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.focus-element-item-date .focus-element-item-date-text {
+  text-align: center;
+  color: black;
+  font-size: 1rem;
+  font-family: Outfit;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.focus-element-item .focus-element-item-name {
+  color: black;
+  font-size: 1rem;
+  font-family: Outfit;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  margin-left: 1rem;
+}
