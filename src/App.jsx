@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Gallery from './components/Gallery'
 import Focus from './components/Focus'
+import Slider from './components/Slider'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Header />
+      <Slider />
       <Focus />
       <Gallery />
       <Footer />
