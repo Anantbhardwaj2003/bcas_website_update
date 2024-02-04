@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Gallery from './components/Gallery'
 import Focus from './components/Focus'
 import Slider from './components/Slider'
+import StudentCorner from './components/StudentCorner'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Slider />
       <Focus />
+      <StudentCorner />
       <Gallery />
       <Footer />
     </>
