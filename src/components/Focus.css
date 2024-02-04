@@ -4,6 +4,7 @@
   /* background-color: rgba(6, 81, 67, 0.73); */
   padding: 2rem 0;
   margin-top: 2rem;
+  padding-bottom: 0;
 }
 
 .focus > .overlay-group {
